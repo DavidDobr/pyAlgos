@@ -50,7 +50,7 @@ for k in test:
 
 
 def GetNumber():
-    x = raw_input('> ')
+    x = input('> ')
     if x.isdigit():
         x = float(x)
     else:
