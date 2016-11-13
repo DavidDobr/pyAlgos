@@ -20,6 +20,8 @@ def sqrt_babylon(y, N=1000, prec=0.001):
     :return: square root of y
 
     @ToDo: implement solution for square root of negative numbers
+    
+    @ToDo: implement handling of floats (both via dots and comas)
     """
     assert (y >= 0), 'Can not sqrt a negative number!'
     if y == 0:
